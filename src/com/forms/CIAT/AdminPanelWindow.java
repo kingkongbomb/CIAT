@@ -271,7 +271,7 @@ public class AdminPanelWindow extends javax.swing.JFrame {
         this.setSize(xsize,ysize);
         
         /*
-        Sets the location of the window
+        Sets the location of the windows
         */
         Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
         
