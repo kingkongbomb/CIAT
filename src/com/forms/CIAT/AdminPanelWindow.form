@@ -125,17 +125,11 @@
       <SubComponents>
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/Paavendan/Downloads/1442819798_contact-new.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Add User"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/Paavendan/Downloads/Actions-list-remove-user-icon.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Remove User"/>
           </Properties>
         </Component>
@@ -181,9 +175,6 @@
       <SubComponents>
         <Component class="javax.swing.JLabel" name="jLabel4">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/Paavendan/Downloads/1442820089_document-new.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Add Object"/>
           </Properties>
         </Component>
@@ -236,17 +227,11 @@
       <SubComponents>
         <Component class="javax.swing.JLabel" name="jLabel9">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/Paavendan/Downloads/1442820097_gnome-help.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Help"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel8">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/Paavendan/Downloads/1442820053_xfce-system-settings.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Settings"/>
           </Properties>
         </Component>

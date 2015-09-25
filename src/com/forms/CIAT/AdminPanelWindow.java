@@ -72,10 +72,8 @@ public class AdminPanelWindow extends javax.swing.JFrame {
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("User"));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("/Users/Paavendan/Downloads/1442819798_contact-new.png")); // NOI18N
         jLabel1.setText("Add User");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("/Users/Paavendan/Downloads/Actions-list-remove-user-icon.png")); // NOI18N
         jLabel2.setText("Remove User");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -103,7 +101,6 @@ public class AdminPanelWindow extends javax.swing.JFrame {
 
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Objects"));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("/Users/Paavendan/Downloads/1442820089_document-new.png")); // NOI18N
         jLabel4.setText("Add Object");
 
         jLabel3.setText("Remove Object");
@@ -138,10 +135,8 @@ public class AdminPanelWindow extends javax.swing.JFrame {
 
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder("Others"));
 
-        jLabel9.setIcon(new javax.swing.ImageIcon("/Users/Paavendan/Downloads/1442820097_gnome-help.png")); // NOI18N
         jLabel9.setText("Help");
 
-        jLabel8.setIcon(new javax.swing.ImageIcon("/Users/Paavendan/Downloads/1442820053_xfce-system-settings.png")); // NOI18N
         jLabel8.setText("Settings");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
@@ -274,5 +269,18 @@ public class AdminPanelWindow extends javax.swing.JFrame {
             int ysize = (int) tk.getScreenSize().getHeight();
             
         this.setSize(xsize,ysize);
+        
+        /*
+        Sets the location of the window
+        */
+        Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+        
+        int jFrameWidth = this.getSize().width;
+        int jFrameHeight = this.getSize().height;
+        
+        int locationX = (dim.width - jFrameWidth)/2;
+        int locationY = (dim.height - jFrameHeight)/2;
+        this.setLocation(locationX, locationY);
     }
+    
 }
